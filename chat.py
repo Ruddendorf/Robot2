@@ -14,7 +14,7 @@ client = OpenAI(
 )
 
 # Azure Speech Studio TTS API configuration (unchanged)
-speech_key = "9feea75d2ea14ba9b972d2e554041d4b"
+speech_key = "yourkey"
 service_region = "southeastasia"
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 speech_config.speech_synthesis_voice_name = "zh-CN-XiaoxiaoMultilingualNeural"
