@@ -5,7 +5,7 @@ import struct
 import azure.cognitiveservices.speech as speechsdk
 import time
 
-KIMI_API_KEY = 'sk-HSzlaToKKknmFulz0qPNmDx1LBVuJJyj2NfDf97SmzNa0phl'  # Replace with your actual Kimi API key
+KIMI_API_KEY = 'yourkey'  # Replace with your actual Kimi API key
 KIMI_BASE_URL = "https://api.moonshot.cn/v1"
 
 client = OpenAI(
